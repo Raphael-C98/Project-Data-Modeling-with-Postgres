@@ -38,7 +38,7 @@ For checking the database
 I created a star schema optimized for queries on song play analysis. In fact, primarily read optimized, star schemas will deliver good performance over large data sets.
 
 
-![image](IMG_20221018_205707.jpg)    
+![image](sparkifydb_erd.png)   
     
 
 THE FACT TABLE: The Fact Table is called 'songplays' and contains the columns songplay_id, start_time, user_id, level, song_id, artist_id, session_id, and location. The songplay_id is the primary key for this table. This means each row in this column is unique. 
